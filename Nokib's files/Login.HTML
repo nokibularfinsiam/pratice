@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+  <p  style="background-color: whitesmoke;">
+    <a href="Dashboard.html"><b style="color: darkred; font-size: xx-large; margin-right: 70%;"><i>ABC RESTAURENT</i></b></a>
+    <a href="Signup.html">Signup</a>
+    <a href="Login.html" style="margin: 2%;">Login</a><br><br>
+  </p>
+
+  <center>
+    <a href="#" style="margin: 3%;">Track Order</a>
+    <a href="#">Past Orders</a>
+    <a href="#" style="margin: 3%;">Book Table</a>
+    <a href="#">Offers</a>
+    <a href="#"style="margin: 3%;">About Us</a><br><br>
+    <!-- <a class="login-button" href="logout.php">Log Out</a>;
+    <img src="user-icon.jpg" alt="User Icon" style="height: 30px; width: 30px; margin-right: 5px;"><br>-->
+</center><br><br><br>
+
+        <form action="login.php" method="post">
+            <center>
+            <fieldset style="width: 350px">
+            <h2 align="center">LogIn</h2>
+            <table align="center">
+              <tr>
+                <td><label for="UserName">User Name</label></td>
+                <td><input type="text" class="form-control" id="UserName" name="UserName" style="width: 96%;" required/></td>
+              </tr>
+              <tr>
+                <td><label for="password">Password</label></td>
+                <td><input  type="password" class="form-control" id="password" name="password"style="width: 96%;" required/></td>      
+              </tr>
+              <tr>
+                <td colspan="2"><center><input type="submit" value="Login"></center></td>
+              </tr>
+            </table>
+                    <p align="center">Create new acccount?<a href="Signup.html">Signup</a></p>
+            </fieldset>
+          </center>
+          </form>
+    
+</body>
+</html>

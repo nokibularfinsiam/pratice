@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+</head>
+<body>
+
+            <p  style="background-color: whitesmoke;">
+              <a href="Dashboard.html"><b style="color: darkred; font-size: xx-large; margin-right: 70%;"><i>ABC RESTAURENT</i></b></a>
+              <a href="Signup.html">Signup</a>
+              <a href="Login.html" style="margin: 2%;">Login</a><br><br>
+            </p>
+
+            <center>
+              <a href="#" style="margin: 3%;">Track Order</a>
+              <a href="#">Past Orders</a>
+              <a href="#" style="margin: 3%;">Book Table</a>
+              <a href="#">Offers</a>
+              <a href="#"style="margin: 3%;">About Us</a><br><br>
+              <!-- <a class="login-button" href="logout.php">Log Out</a>;
+              <img src="user-icon.jpg" alt="User Icon" style="height: 30px; width: 30px; margin-right: 5px;"><br>-->
+          </center>
+              
+              <form action="connect.php" method="post" enctype="multipart/form-data">
+                <center>
+                <fieldset style="width: 350px">
+                <h2 align="center">Sign Up</h2>
+                <table align="center">
+                  <tr>
+                    <td><label for="UserName">User Name</label></td>
+                    <td><input type="text" class="form-control" id="UserName" name="UserName" style="width: 96%;" required/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="Full_Name">Full Name</label></td>
+                    <td><input  type="text" class="form-control" id="Full_Name" name="Full_Name"style="width: 96%;" required/></td>      
+                  </tr>
+                  <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                      <label for="male" class="radio-inline"><input type="radio" name="gender" value="male" id="male" required/>Male</label>
+                      <label for="female" class="radio-inline"><input type="radio" name="gender" value="female" id="female"  required/>Female</label>
+                      <label for="others" class="radio-inline"><input  type="radio" name="gender" value="others" id="others" required/>Others</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td> <label for="UserType">User Type</label></td>
+                    <td>
+                      <label for="deliverman" class="radio-inline"><input  type="radio" name="UserType" value="Deliveryman" id="deliveryman" required/>Deliveryman</label>
+                      <label for="customer" class="radio-inline"><input  type="radio" name="UserType" value="Customer" id="customer" required/>Customer</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="text" class="form-control" id="email" name="email" style="width: 96%;" required/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" class="form-control" id="password"  name="password" style="width: 96%;" required/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="number">Phone Number</label></td>
+                    <td><input type="number" class="form-control" id="number"  name="number" style="width: 96%;" required/></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><center><input type="submit" value="Sign Up"></center></td>
+                  </tr>
+                </table>
+				        <p align="center">Already have an acccount?<a href="login.html">Log In</a></p>
+                </fieldset>
+              </center>
+              </form>
+</body>
+</html>
