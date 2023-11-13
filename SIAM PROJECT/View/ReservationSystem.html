@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Table Booking</title>
+</head>
+<body >
+
+    <p style="background-color: whitesmoke;">
+        <a href="Dashboard.html"><b style="font-size: xx-large; margin-right: 68%;"><i>ABC RESTAURENT</i></b></a>
+        <a href="viewnotification.php" style="margin: 2%;">Notification</a>
+        <a href="../Controller/LogoutCheck.php">Logout</a><br><br>
+       </p><br>
+    <center>
+        <a href="#" style="margin: 3%;">Track Order</a>
+        <a href="#">Past Orders</a>
+        <a href="../View/ReservationSystem.html" style="margin: 3%;">Book Table</a>
+        <a href="#">Offers</a>
+        <a href="#"style="margin: 3%;">About Us</a><br><br>
+        <!-- <a class="login-button" href="logout.php">Log Out</a>;
+        <img src="user-icon.jpg" alt="User Icon" style="height: 30px; width: 30px; margin-right: 5px;"><br>-->
+    </center>
+    
+<center>
+    <form action="../Controller/ReservationSystemCheck.php" method="post">
+        <fieldset style="width:320px">
+        <style></style>
+            <legend align="center"><h1>Booking Table</h1></legend>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td><input type="number"  name="number"></td>
+                    </tr>
+                    <tr>
+                        <td>Date:</td>
+                        <td><input type="date" name="date" style="width:165px"></td>
+                    </tr>
+                    <tr>
+                        <td>Time:</td>
+                        <td><input type="time" name="time" style="width:165px"></td>
+                    </tr>
+                    <tr>
+                        <td>Number of Guests:</td>
+                        <td><input type="number" name="guests" ></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr style="width:300px" align="left"></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2' align="center"><input type="submit" name="submit" value="Book Table"></td>
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+</head>
+<body >
+
+    <p style="background-color: whitesmoke;">
+        <a href="Dashboard.html"><b style=" font-size: xx-large; margin-right: 70%;"><i>ABC RESTAURENT</i></b></a><br><br>
+       </p>
+       <a href="Dashboard.html">Home</a>
+    <center>
+        <a href="#" style="margin: 3%;">Track Order</a>
+        <a href="#">Offers</a>
+        <a href="#"style="margin: 3%;">About Us</a><br><br>
+        <!-- <a class="login-button" href="logout.php">Log Out</a>;
+        <img src="user-icon.jpg" alt="User Icon" style="height: 30px; width: 30px; margin-right: 5px;"><br>-->
+    </center>
+    
+<center>
+    <form action="../Controller/feedbackCheck.php" method="post">
+        <fieldset style="height: 300px; width:500px">
+        <style></style>
+            <legend align="center"><h1>Give Feedback</h1></legend>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="text" name="email" style="width: 350px;"></td>
+                    </tr>
+                    <tr>
+                        <td>write here:</td>
+                        <td><input type="text"  name="feedback" style="height: 100px; width: 350px;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr style="width:480px" align="left"></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2' align="center"><input type="submit" name="submit" value="submit"></td>
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+    </center>
+</body>
+</html>
