@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+}
+
+p b {
+    font-size: 24px;
+    margin-right: 70%;
+}
+
+a {
+    margin: 1%;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+
+center {
+    text-align: center;
+}
+
+fieldset {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
