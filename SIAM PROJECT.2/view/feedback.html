@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="../css/feedback.css">
+    <script src="../js/feedbackCheck.js"></script>
+
+</head>
+<body >
+    
+<center>
+    <form action="../controller/feedbackCheck.php" method="post" id="form1" class="form">
+        <fieldset class="fieldset">
+        <style></style>
+            <legend><h1>Give Feedback</h1></legend>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" id="email" class="email" name="email" style="width: 522px;"></td>
+                    </tr>
+                    <tr>
+                        <td>write here:</td>
+                        <td><textarea name="feedback" id="feedback"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr style="width:580px" align="left"></td>
+                    </tr>
+                    <tr>
+                        <td colspan='2' align="center"><input type="button" name="submit" value="submit" id="submit" class="submit" onclick="vldf()"></td>
+                        <h3 id="print" style="color: red;"></h3>
+                        <h3 id="print1" style="color: green;"></h3>
+
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+    </center>
+</body>
+</html>
